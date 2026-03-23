@@ -2,8 +2,6 @@
 
 WristCraft is a real-time 3D watch builder and community platform for watch enthusiasts, collectors, and hobbyists. Inspired by the workflow of PCPartPicker but built with an aesthetic appeal, it lets users design a custom watch from individual components, visualize it in 3D, and share their builds with a community.
 
-**Live Demo:** [wristcraft.vercel.app](https://wristcraft.vercel.app) <!-- update with your Vercel URL -->
-
 ---
 
 ## What It Does
@@ -97,22 +95,9 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ### Build for Production
 
-```bash
+````bash
 npm run build
 npm start
-```
-
----
-
-## Deployment
-
-This project is deployed on Vercel. Every push to `main` triggers an automatic deployment.
-
-To deploy your own instance:
-
-1. Fork this repository
-2. Go to [vercel.com](https://vercel.com) and import the repo
-3. Click Deploy — no configuration needed
 
 ---
 
@@ -125,7 +110,7 @@ The UI uses a warm aesthetic built around CSS custom properties:
   /* card and panel surfaces */ --text: #1c1917 /* near-black primary text */
   --accent: #8b7355 /* refined bronze accent */ --accent-2: #c4a882
   /* light bronze */;
-```
+````
 
 Typography pairs **Cormorant Garamond** (display headings) with **Syne** (UI text) and **DM Mono** (labels and data).
 
